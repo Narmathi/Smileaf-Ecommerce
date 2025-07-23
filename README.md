@@ -47,34 +47,13 @@ Smileleaf E-Commerce is a full-featured e-commerce platform built with **CodeIgn
 
 2. **Setup Environment**
    - Rename `.env.example` to `.env` and configure:
-     ```
-     database.default.hostname = localhost
-     database.default.database = your_db_name
-     database.default.username = your_db_user
-     database.default.password = your_db_pass
-     ```
+   
    - Add API keys for Razorpay and 2FA in `.env`:
      ```
      RAZORPAY_KEY=your_razorpay_key
      RAZORPAY_SECRET=your_razorpay_secret
      SMS_API_KEY=your_2fa_api_key
      ```
-
-3. **Install Dependencies**
-   ```bash
-   composer install
-   ```
-
-4. **Run Migrations**
-   ```bash
-   php spark migrate
-   ```
-
-5. **Serve the Application**
-   ```bash
-   php spark serve
-   ```
-   Visit [http://localhost:8080](http://localhost:8080)
 
 ---
 
@@ -86,24 +65,7 @@ This project uses **JWT** for securing API endpoints. Include your JWT token in 
 Authorization: Bearer <your_token>
 ```
 
----
-
-## 📸 Screenshots
-
-| User View                         | Admin Dashboard                |
-|------------------------------------|---------------------------------|
-| ![User View](screenshots/user.png) | ![Admin Dashboard](screenshots/admin.png) |
-
-*(Add your screenshots in the `/screenshots` folder)*
-
----
-
-## 📖 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 ## 👩‍💻 Author
 
-- **Narmathi GP** – [GitHub](https://github.com/your-username) | [LinkedIn](https://linkedin.com/in/your-link)
+- **Narmathi GP** – [GitHub](https://github.com/Narmathi) | [LinkedIn](https://www.linkedin.com/in/narmathi-gp-a888b31b1)
